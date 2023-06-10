@@ -290,14 +290,22 @@ li a {
     max-width: 44rem;
     max-height: 44rem;
   }
-
+  footer {
+    margin-top: 34rem;
+  }
   .footer__card {
     padding: 5.6rem 1rem;
+    top:-18.5rem;
   }
 
   .card__title {
     margin-bottom: 3.2rem;
+    line-height: 6rem;
   }
+  .card__cta {
+    padding: 2.5rem 10rem;
+  }
+  
 }
 
 @media only screen and (min-width: 1000px) {
