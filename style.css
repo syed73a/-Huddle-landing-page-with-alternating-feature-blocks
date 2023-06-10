@@ -260,6 +260,9 @@ li a {
 /* || MEDIA QUERY */
 
 @media only screen and (min-width: 700px) {
+  .hero {
+    margin-bottom: 16rem;
+  }
   .hero__flex {
     display: flex;
     gap: 1rem;
@@ -305,7 +308,10 @@ li a {
   .card__cta {
     padding: 2.5rem 10rem;
   }
-  
+  .copyright {
+    padding-bottom: 6.4rem;
+  }
+   
 }
 
 @media only screen and (min-width: 1000px) {
